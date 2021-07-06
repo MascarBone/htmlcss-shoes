@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Zen Tokyo Zoo', cursive, sans-serif;
+}
+
+section {
+    height: 100vh;    
+}
+
+#product-first {
+    background-color: red;
+}
+
+#product-second {
+    background-color: green;
+}
+
+#product-third {
+    background-color: yellow;
+}
