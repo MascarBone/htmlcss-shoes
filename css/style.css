@@ -3,12 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Zen Tokyo Zoo', cursive, sans-serif;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header li {
+    float: left;
+    list-style-type: none;
+    margin: 30px 20px 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: arial;
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    font-weight: 600;
+    background-color: white;
+    padding: 0.9em 1.4em;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
 section {
     height: 100vh;    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #product-first {
